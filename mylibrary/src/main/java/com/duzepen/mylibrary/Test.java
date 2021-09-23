@@ -1,5 +1,9 @@
 package com.duzepen.mylibrary;
 
+import android.content.Context;
+import android.util.Log;
+import android.widget.Toast;
+
 /**
  * 项目名称：Text
  * 类描述：
@@ -10,7 +14,13 @@ package com.duzepen.mylibrary;
  * 修改备注：
  */
 public class Test {
-    public double addition(double addnum1,double addnum2){
+    public static double addition(double addnum1,double addnum2){
         return addnum1 + addnum2;
+    }
+    public static void showLog(){
+        Log.e("mylibrary","tao tao is good boy");
+    }
+    public static void showToast(Context mContext){
+        Toast.makeText(mContext,"tao tao is good boy",Toast.LENGTH_LONG);
     }
 }
