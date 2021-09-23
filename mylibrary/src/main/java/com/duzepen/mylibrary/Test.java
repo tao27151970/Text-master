@@ -7,7 +7,7 @@ import android.widget.Toast;
 /**
  * 项目名称：Text
  * 类描述：
- * 创建人：dell
+ * 创建人：tao
  * 创建时间：2019/8/1220:22
  * 修改人：
  * 修改时间：
@@ -21,6 +21,6 @@ public class Test {
         Log.e("mylibrary","tao tao is good boy");
     }
     public static void showToast(Context mContext){
-        Toast.makeText(mContext,"tao tao is good boy",Toast.LENGTH_LONG);
+        Toast.makeText(mContext,"tao tao is good boy",Toast.LENGTH_LONG).show();
     }
 }
